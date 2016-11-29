@@ -1,0 +1,8 @@
+Afficher fichiers cachés sous mac
+
+Afficher
+defaults write com.apple.finder AppleShowAllFiles YES && killall Finder
+
+Masquer
+defaults write com.apple.finder AppleShowAllFiles NO && killall Finder
+
